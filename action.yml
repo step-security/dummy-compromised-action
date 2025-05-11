@@ -1,0 +1,8 @@
+name: Dummy Compromised Action
+description: A harmless GitHub Action designed to test enforcement of the Compromised Actions workflow run policy.
+author: StepSecurity
+runs:
+  using: "composite"
+  steps:
+    - name: Print test message
+      run: echo "A harmless GitHub Action designed to test enforcement of the Compromised Actions workflow run policy."
