@@ -6,3 +6,4 @@ runs:
   steps:
     - name: Print test message
       run: echo "A harmless GitHub Action designed to test enforcement of the Compromised Actions workflow run policy."
+      shell: bash
